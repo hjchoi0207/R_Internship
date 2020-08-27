@@ -1,0 +1,11 @@
+name <- c('주시현','최경우','이은주','허민성','홍미나')
+height <- c(168,176,167,174,169)
+weight <- c(52,68,47,82,51)
+df <- data.frame(이름=name, 키=height, 몸무게=weight)
+attach(df)
+
+mean(키)
+median(키)
+mean(몸무게)
+sd(키)
+sd(몸무게)
